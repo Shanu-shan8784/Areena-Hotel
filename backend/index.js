@@ -23,6 +23,9 @@ PORT = process.env.PORT||8009
 
 
 
+app.use("/",routes)
+
+
 
 app.listen(PORT,()=>{
     console.log("Sever is started at port ",PORT)
